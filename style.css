@@ -536,6 +536,16 @@ p {
 
 
 /* Keyframes */
+@keyframes hamburger_puls {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.4);
+	}
+}
 @keyframes text_reveal_box {
 	50% {
 		width: 100%;
@@ -558,6 +568,7 @@ p {
 	}
 }
 /* End Keyframes */
+
 
 
 /* Media Query For Tablet */
